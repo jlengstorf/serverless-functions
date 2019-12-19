@@ -1,0 +1,10 @@
+[build]
+  command = "echo \"boop\""
+  functions = "functions"
+  publish = "public"
+
+[dev]
+  command = "yarn dev"  #=> command to start your dev server
+  publish = "public"    #=> where your static files live
+  port = 9999           #=> where Netlify Dev runs
+  targetPort = 5000     #=> where your site’s dev server runs

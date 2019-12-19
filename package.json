@@ -1,0 +1,13 @@
+{
+  "name": "serverless-functions",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "Jason Lengstorf <jason@lengstorf.com> (https://lengstorf.com)",
+  "license": "MIT",
+  "scripts": {
+    "dev": "serve public"
+  },
+  "devDependencies": {
+    "serve": "^11.2.0"
+  }
+}
