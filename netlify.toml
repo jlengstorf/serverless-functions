@@ -1,5 +1,5 @@
 [build]
-  command = "echo \"boop\""
+  command = "# no build command needed; it’s just HTML!"
   functions = "functions"
   publish = "public"
 
